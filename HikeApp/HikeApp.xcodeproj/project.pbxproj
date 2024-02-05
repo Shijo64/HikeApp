@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5218DCB8A3862E89301E5227 /* Pods_HikeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA2040DA98A18BB506181D4 /* Pods_HikeApp.framework */; };
+		7898C43B2B71A49800420747 /* HikeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898C43A2B71A49800420747 /* HikeAppApp.swift */; };
+		7898C43D2B71A49800420747 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898C43C2B71A49800420747 /* ContentView.swift */; };
+		7898C43F2B71A49B00420747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7898C43E2B71A49B00420747 /* Assets.xcassets */; };
+		7898C4422B71A49B00420747 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7898C4412B71A49B00420747 /* Preview Assets.xcassets */; };
+		7898C44C2B71A49B00420747 /* HikeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898C44B2B71A49B00420747 /* HikeAppTests.swift */; };
+		7898C4562B71A49B00420747 /* HikeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898C4552B71A49B00420747 /* HikeAppUITests.swift */; };
+		7898C4582B71A49B00420747 /* HikeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898C4572B71A49B00420747 /* HikeAppUITestsLaunchTests.swift */; };
+		A3518E1420BB3189C370930F /* Pods_HikeApp_HikeAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEA644500AB4A41CDC433FB /* Pods_HikeApp_HikeAppUITests.framework */; };
+		E55084AFD1581125F8D99C4F /* Pods_HikeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BE84D02D38EC3D6D08A4E9 /* Pods_HikeAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7898C4482B71A49B00420747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7898C42F2B71A49800420747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7898C4362B71A49800420747;
+			remoteInfo = HikeApp;
+		};
+		7898C4522B71A49B00420747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7898C42F2B71A49800420747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7898C4362B71A49800420747;
+			remoteInfo = HikeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13EEB814AECB5B2A3497160A /* Pods-HikeApp-HikeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeApp-HikeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HikeApp-HikeAppUITests/Pods-HikeApp-HikeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34E20511090D57CFA82B286F /* Pods-HikeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeAppTests.release.xcconfig"; path = "Target Support Files/Pods-HikeAppTests/Pods-HikeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4CD5DA754C1030521468553D /* Pods-HikeApp-HikeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeApp-HikeAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HikeApp-HikeAppUITests/Pods-HikeApp-HikeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CEA644500AB4A41CDC433FB /* Pods_HikeApp_HikeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HikeApp_HikeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7898C4372B71A49800420747 /* HikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7898C43A2B71A49800420747 /* HikeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeAppApp.swift; sourceTree = "<group>"; };
+		7898C43C2B71A49800420747 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7898C43E2B71A49B00420747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7898C4412B71A49B00420747 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7898C4472B71A49B00420747 /* HikeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7898C44B2B71A49B00420747 /* HikeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeAppTests.swift; sourceTree = "<group>"; };
+		7898C4512B71A49B00420747 /* HikeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7898C4552B71A49B00420747 /* HikeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeAppUITests.swift; sourceTree = "<group>"; };
+		7898C4572B71A49B00420747 /* HikeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		902BC5582707F114A9C696BD /* Pods-HikeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeApp.debug.xcconfig"; path = "Target Support Files/Pods-HikeApp/Pods-HikeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		90BE84D02D38EC3D6D08A4E9 /* Pods_HikeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HikeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FE424BD71AF338BDD37739 /* Pods-HikeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeApp.release.xcconfig"; path = "Target Support Files/Pods-HikeApp/Pods-HikeApp.release.xcconfig"; sourceTree = "<group>"; };
+		99BA43C4E3BEE2041E425B7A /* Pods-HikeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HikeAppTests/Pods-HikeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDA2040DA98A18BB506181D4 /* Pods_HikeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HikeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7898C4342B71A49800420747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5218DCB8A3862E89301E5227 /* Pods_HikeApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7898C4442B71A49B00420747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55084AFD1581125F8D99C4F /* Pods_HikeAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7898C44E2B71A49B00420747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3518E1420BB3189C370930F /* Pods_HikeApp_HikeAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7898C42E2B71A49800420747 = {
+			isa = PBXGroup;
+			children = (
+				7898C4392B71A49800420747 /* HikeApp */,
+				7898C44A2B71A49B00420747 /* HikeAppTests */,
+				7898C4542B71A49B00420747 /* HikeAppUITests */,
+				7898C4382B71A49800420747 /* Products */,
+				D0A7398C43DA72058360A008 /* Pods */,
+				966B67A8E27D1A682D4DD717 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7898C4382B71A49800420747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7898C4372B71A49800420747 /* HikeApp.app */,
+				7898C4472B71A49B00420747 /* HikeAppTests.xctest */,
+				7898C4512B71A49B00420747 /* HikeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7898C4392B71A49800420747 /* HikeApp */ = {
+			isa = PBXGroup;
+			children = (
+				7898C43A2B71A49800420747 /* HikeAppApp.swift */,
+				7898C43C2B71A49800420747 /* ContentView.swift */,
+				7898C43E2B71A49B00420747 /* Assets.xcassets */,
+				7898C4402B71A49B00420747 /* Preview Content */,
+			);
+			path = HikeApp;
+			sourceTree = "<group>";
+		};
+		7898C4402B71A49B00420747 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7898C4412B71A49B00420747 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7898C44A2B71A49B00420747 /* HikeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7898C44B2B71A49B00420747 /* HikeAppTests.swift */,
+			);
+			path = HikeAppTests;
+			sourceTree = "<group>";
+		};
+		7898C4542B71A49B00420747 /* HikeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7898C4552B71A49B00420747 /* HikeAppUITests.swift */,
+				7898C4572B71A49B00420747 /* HikeAppUITestsLaunchTests.swift */,
+			);
+			path = HikeAppUITests;
+			sourceTree = "<group>";
+		};
+		966B67A8E27D1A682D4DD717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2040DA98A18BB506181D4 /* Pods_HikeApp.framework */,
+				5CEA644500AB4A41CDC433FB /* Pods_HikeApp_HikeAppUITests.framework */,
+				90BE84D02D38EC3D6D08A4E9 /* Pods_HikeAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0A7398C43DA72058360A008 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				902BC5582707F114A9C696BD /* Pods-HikeApp.debug.xcconfig */,
+				91FE424BD71AF338BDD37739 /* Pods-HikeApp.release.xcconfig */,
+				13EEB814AECB5B2A3497160A /* Pods-HikeApp-HikeAppUITests.debug.xcconfig */,
+				4CD5DA754C1030521468553D /* Pods-HikeApp-HikeAppUITests.release.xcconfig */,
+				99BA43C4E3BEE2041E425B7A /* Pods-HikeAppTests.debug.xcconfig */,
+				34E20511090D57CFA82B286F /* Pods-HikeAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7898C4362B71A49800420747 /* HikeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7898C45B2B71A49B00420747 /* Build configuration list for PBXNativeTarget "HikeApp" */;
+			buildPhases = (
+				51271CFDABC0C8B83001BA28 /* [CP] Check Pods Manifest.lock */,
+				7898C4332B71A49800420747 /* Sources */,
+				7898C4342B71A49800420747 /* Frameworks */,
+				7898C4352B71A49800420747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HikeApp;
+			productName = HikeApp;
+			productReference = 7898C4372B71A49800420747 /* HikeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7898C4462B71A49B00420747 /* HikeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7898C45E2B71A49B00420747 /* Build configuration list for PBXNativeTarget "HikeAppTests" */;
+			buildPhases = (
+				82B2FC5559B3EC40E94EB25E /* [CP] Check Pods Manifest.lock */,
+				7898C4432B71A49B00420747 /* Sources */,
+				7898C4442B71A49B00420747 /* Frameworks */,
+				7898C4452B71A49B00420747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7898C4492B71A49B00420747 /* PBXTargetDependency */,
+			);
+			name = HikeAppTests;
+			productName = HikeAppTests;
+			productReference = 7898C4472B71A49B00420747 /* HikeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7898C4502B71A49B00420747 /* HikeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7898C4612B71A49B00420747 /* Build configuration list for PBXNativeTarget "HikeAppUITests" */;
+			buildPhases = (
+				86EADC20E3ED7B553189B520 /* [CP] Check Pods Manifest.lock */,
+				7898C44D2B71A49B00420747 /* Sources */,
+				7898C44E2B71A49B00420747 /* Frameworks */,
+				7898C44F2B71A49B00420747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7898C4532B71A49B00420747 /* PBXTargetDependency */,
+			);
+			name = HikeAppUITests;
+			productName = HikeAppUITests;
+			productReference = 7898C4512B71A49B00420747 /* HikeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7898C42F2B71A49800420747 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7898C4362B71A49800420747 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7898C4462B71A49B00420747 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7898C4362B71A49800420747;
+					};
+					7898C4502B71A49B00420747 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7898C4362B71A49800420747;
+					};
+				};
+			};
+			buildConfigurationList = 7898C4322B71A49800420747 /* Build configuration list for PBXProject "HikeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7898C42E2B71A49800420747;
+			productRefGroup = 7898C4382B71A49800420747 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7898C4362B71A49800420747 /* HikeApp */,
+				7898C4462B71A49B00420747 /* HikeAppTests */,
+				7898C4502B71A49B00420747 /* HikeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7898C4352B71A49800420747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7898C4422B71A49B00420747 /* Preview Assets.xcassets in Resources */,
+				7898C43F2B71A49B00420747 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7898C4452B71A49B00420747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7898C44F2B71A49B00420747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51271CFDABC0C8B83001BA28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HikeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82B2FC5559B3EC40E94EB25E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HikeAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86EADC20E3ED7B553189B520 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HikeApp-HikeAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7898C4332B71A49800420747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7898C43D2B71A49800420747 /* ContentView.swift in Sources */,
+				7898C43B2B71A49800420747 /* HikeAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7898C4432B71A49B00420747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7898C44C2B71A49B00420747 /* HikeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7898C44D2B71A49B00420747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7898C4562B71A49B00420747 /* HikeAppUITests.swift in Sources */,
+				7898C4582B71A49B00420747 /* HikeAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7898C4492B71A49B00420747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7898C4362B71A49800420747 /* HikeApp */;
+			targetProxy = 7898C4482B71A49B00420747 /* PBXContainerItemProxy */;
+		};
+		7898C4532B71A49B00420747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7898C4362B71A49800420747 /* HikeApp */;
+			targetProxy = 7898C4522B71A49B00420747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7898C4592B71A49B00420747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7898C45A2B71A49B00420747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7898C45C2B71A49B00420747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902BC5582707F114A9C696BD /* Pods-HikeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HikeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GH56X8WU4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Appthra.HikeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7898C45D2B71A49B00420747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FE424BD71AF338BDD37739 /* Pods-HikeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HikeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GH56X8WU4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Appthra.HikeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7898C45F2B71A49B00420747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BA43C4E3BEE2041E425B7A /* Pods-HikeAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GH56X8WU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Appthra.HikeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HikeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HikeApp";
+			};
+			name = Debug;
+		};
+		7898C4602B71A49B00420747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E20511090D57CFA82B286F /* Pods-HikeAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GH56X8WU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Appthra.HikeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HikeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HikeApp";
+			};
+			name = Release;
+		};
+		7898C4622B71A49B00420747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EEB814AECB5B2A3497160A /* Pods-HikeApp-HikeAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GH56X8WU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Appthra.HikeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HikeApp;
+			};
+			name = Debug;
+		};
+		7898C4632B71A49B00420747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD5DA754C1030521468553D /* Pods-HikeApp-HikeAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GH56X8WU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Appthra.HikeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HikeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7898C4322B71A49800420747 /* Build configuration list for PBXProject "HikeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7898C4592B71A49B00420747 /* Debug */,
+				7898C45A2B71A49B00420747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7898C45B2B71A49B00420747 /* Build configuration list for PBXNativeTarget "HikeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7898C45C2B71A49B00420747 /* Debug */,
+				7898C45D2B71A49B00420747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7898C45E2B71A49B00420747 /* Build configuration list for PBXNativeTarget "HikeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7898C45F2B71A49B00420747 /* Debug */,
+				7898C4602B71A49B00420747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7898C4612B71A49B00420747 /* Build configuration list for PBXNativeTarget "HikeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7898C4622B71A49B00420747 /* Debug */,
+				7898C4632B71A49B00420747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7898C42F2B71A49800420747 /* Project object */;
+}
